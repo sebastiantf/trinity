@@ -66,10 +66,31 @@
 }
 
 #team .member .social a:hover {
-  color: #18d26e;
+  color: #f05f40;
 }
 
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+.service-box > h3 {
+  margin-top: 50px;
+}
+
+.angle-down {
+  margin-bottom: -100px;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-primary {
+  transition: transform .2s;
+}
+
+.text-primary:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
